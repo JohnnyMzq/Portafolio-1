@@ -1,0 +1,5 @@
+export {default as Header} from './Header/Header'
+export {default as Hero} from './Hero/Hero'
+export {default as Timeline } from './Timeline/Timeline'
+export {default as Acomplishments} from './Acomplishments/Acomplishments'
+export {defaulst as Footer} from './Footer/Footer'

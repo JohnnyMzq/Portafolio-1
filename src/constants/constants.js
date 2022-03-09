@@ -1,0 +1,62 @@
+export const projects = [
+  {
+    title: 'PinMe',
+    description: "Creada Con React, PinMe es una red social estilo pinterest funcional, con la capacidad de loguearse con google.",
+      image: '/images/1.png',
+      tags: ['React', 'JavaScript', 'Node', 'TailwindCss'],
+    source: 'https://pinmesocial.netlify.app/login',
+    visit: 'https://github.com/JohnnyMzq/PinMe',
+    id: 0,
+  },
+  {
+    title: 'Premium Web',
+    description:"Este proyecto es una web diseñada para ser usada como portafolio o inicio de una web de negocios",
+    image: '/images/2.png',
+    tags: ['React', 'JavaScript', 'Node'],
+    source: 'https://premium-web.netlify.app/',
+    visit: 'https://github.com/JohnnyMzq/Premium',
+    id: 1,
+  },
+  {
+    title: 'Unichat Messenger',
+    description: "Web Unichat proyecto el cual funciona usando Firebase y Chat Engine, permite crear una sala y ver los usuarios logueados.",
+      image: '/images/3.png',
+      tags: ['React', 'firebase', 'Chat Engine'],
+    source: 'https://messenger-2.netlify.app/',
+    visit: 'https://github.com/JohnnyMzq/messenger',
+    id: 2,
+  },
+  {
+    title: 'Travel Advisor',
+    description: "es una web en la cual se puede buscar hoteles, restaurantes o atracciones. usa Travel Advisor api, Open Weather Map api y la api de Google",
+    image: '/images/4.png',
+    tags: ['React', 'RapidApi', 'Material-ui'],
+    source: 'https://travel-adv.netlify.app/',
+    visit: 'https://github.com/JohnnyMzq/TravelAdvisor',
+    id: 3,
+  },
+  {
+    title: 'Clon de Google',
+    description: "es un clon de google usando RapidApi y la api del buscador de google, la cual permite realizar busquedas en internet en tiempo real y muestra imagenes o videos de de la busqueda",
+    image: '/images/5.png',
+    tags: ['React', 'Tailwind CSS', 'RapidApi'],
+    source: 'https://google-clon-2.netlify.app/search',
+    visit: 'https://github.com/JohnnyMzq/ClonGoogle',
+    id: 4,
+  },
+  {
+    title: 'Calculadora',
+    description: "Primer proyecto subido a netlify, Calculadora Basica creada en react con estilos basicos de CSS, la cual es usada por algunos alumnos de escuelas primarias.",
+    image: '/images/6.png',
+    tags: ['React', 'CSS',],
+    source: 'https://calculadora-react-johnnymzq.netlify.app/',
+    visit: 'https://github.com/JohnnyMzq/Calculadora',
+    id: 5,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2021, text: 'Empece mi viaje', },
+  { year: 2021, text: 'Fin de cursado y comienzo a crear proyectos', },
+  { year: 2022, text: 'Finalizo multiples proyectos y decido embarcarme en el mundo laboral', },
+];
